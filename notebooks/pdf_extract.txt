@@ -1,0 +1,1084 @@
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mThe Ethical Challenges of Publishing Twitter Data[0m
+[94mfor Research Dissemination[0m
+[94mHelena Webb[0m
+[94mBernd Carsten Stahl[0m
+[94mWilliam Housley[0m
+[94mMarina Jirotka[0m
+[94mDe Montfort University,[0m
+[94mAdam Edwards[0m
+[94mUniversity of Oxford,[0m
+[94mDepartment of Informatics[0m
+[94mMatthew Williams[0m
+[94mDepartment of Computer Science[0m
+[94mLeicester, United Kingdom[0m
+[94mCardiff University,[0m
+[94mOxford, United Kingdom[0m
+[94mbstahl@dmu.ac.uk[0m
+[94mSchool of Social Sciences[0m
+[94mhelena.webb@cs.ox.ac.uk[0m
+[94mCardiff, United Kingdom[0m
+[94mmarina.jirotka.cs.ox.ac.uk[0m
+[94mOmer Rana[0m
+[94mhousleyw@cardiff.ac.uk[0m
+[94mPete Burnap[0m
+[94medwardsa2@cardiff.ac.uk[0m
+[94mRob Procter*[0m
+[94mCardiff University, School[0m
+[94mwilliamsm7@cardiff.ac.uk[0m
+[94mUniversity of Warwick,[0m
+[94mof Computer Science and Informatics[0m
+[94mDepartment of Computer Science[0m
+[94mCardiff, United Kingdom[0m
+[94mCoventry, United Kingdom[0m
+[94mranaof@cardiff.ac.ul[0m
+[94mrob.procter@warwick.ac.uk[0m
+[94mp.burnap@cs.cardiff.ac.ul[0m
+[94m*Corresponding author[0m
+[94mABSTRACT[0m
+[94mfields over how to resolve these issues and we argue that[0m
+[94mEmpirical research involving the analysis of Internet-based data[0m
+[94mconstructive debate is necessary in order to take a proactive[0m
+[94mraises a number of ethical challenges. One instance of this is the[0m
+[94mapproach towards good practice.[0m
+[94manalysis of Twitter data, in particular when specific tweets are[0m
+[94mreproduced for the purposes of dissemination. Although Twitter[0m
+[94mKeywords[0m
+[94mis an open platform it is possible to question whether this[0m
+[94mResearch ethics, Twitter, social media, informed consent[0m
+[94mprovides a sufficient ethical justification to collect, analyse and[0m
+[94mreproduce tweets for the purposes of research or whether it is[0m
+[94m1. INTRODUCTION[0m
+[94mnecessary to also undertake specific informed consent[0m
+[94mTwitter provides a highly popular data source in Web science[0m
+[94mprocedures. This paper reports on an ethics consultation that[0m
+[94mresearch. It is easy to understand why this is the case. Twitter is[0m
+[94mformed part of a wider research study and that aimed to identify[0m
+[94ma widely used social media platform across the world and it is[0m
+[94mbest practice procedures for the publication of Twitter data in[0m
+[94mrelatively easy for researchers to collect data from it. As an open[0m
+[94mresearch findings. We focus largely on the UK context and draw[0m
+[94mplatform the majority of posts are available to public view and[0m
+[94mon the outcomes of the consultation to highlight the range and[0m
+[94mresearchers can collect large numbers of tweets in a very short[0m
+[94mdepth of ethical issues that arise in this area. We can see Twitter[0m
+[94mperiod of time via the platform's Application Programming[0m
+[94mas a case study for a wide number of data sources used in Web[0m
+[94mInterface (API). Much existing work draws upon large scale[0m
+[94mScience. This is a highly complex landscape in which questions[0m
+[94mquantitative approaches which present aggregated findings to[0m
+[94mcrystallise around fundamental principles such as informed[0m
+[94mdiscuss, for instance, voting intentions [1], the propagation of[0m
+[94mconsent, anonymisation and the minimisation of harm.[0m
+[94mcontent [2], and the expression of sentiment and tension in[0m
+[94mFurthermore, tensions exist between commercial, regulatory and[0m
+[94mparticular social contexts [3]. Twitter data have also been used[0m
+[94macademic practices, and there are also circumstances in which[0m
+[94mfor smaller scale qualitative analyses [4], which often use[0m
+[94mgood ethical practice might compromise academic integrity.[0m
+[94mlinguistic or discourse analytic approaches to examine how posts[0m
+[94mThere is an absence of consensus in Web science and related[0m
+[94mare constructed and how the messages within them are[0m
+[94mconveyed.[0m
+[94mcc[0m
+[94mBY[0m
+[94mThis work is licensed under a Creative Commons[0m
+[94mResearch in the field has already highlighted some of the ethical[0m
+[94mAttribution International 4.0 License[0m
+[94missues involved in this kind of research - much of it in terms of[0m
+[94msocial media data as an instance of Big Data [5]. These important[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mdiscussions focus on concerns arising from the use of automated[0m
+[94m@ 2017 Copyright is held by the owner/author(s).[0m
+[94mprocesses to collect large volumes of data and what implications[0m
+[94mACM ISBN 978-1-4503-4896-6/17/06.[0m
+[94mthis has for participant recruitment, privacy and identification[0m
+[94mhttp://dx.doi.org/10.1145/3091478.3091489[0m
+[94metc. Discussions have also focused on the appropriate handling[0m
+[94m339[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mand archiving of such data [6]. Suggestions for what might[0m
+[94mimpeding freedom of speech [9]. As part of this work we used[0m
+[94mconstitute good ethical practice in these areas vary, often in[0m
+[94mTwitter data as a case study to investigate the posting and spread[0m
+[94mrelation to the different levels of risk associated with different[0m
+[94mof cyber hate on social media.[0m
+[94mdata sources (e.g. private VS public internet platforms) but also as[0m
+[94ma reflection of different ethical positions [7].[0m
+[94mWe collected tweets via the Twitter API and collated[0m
+[94mconversational "threads'. Each thread began with a post that[0m
+[94mIn our own research project, we encountered a number of[0m
+[94mmight be considered as an instance of cyber hate - that is, an[0m
+[94mchallenges relating to the responsible handling of Twitter data.[0m
+[94mantagonistic post targeted at an individual or group based on[0m
+[94mDue to the specific nature of our project focus and[0m
+[94mpersonal attributes. These were identified through the accounts[0m
+[94mmethodological approach we identified questions that had not[0m
+[94mof well-known inflammatory posters in the public eye and via[0m
+[94myet been addressed in full in the existing literature. These related[0m
+[94msentinel sites such as #YesYou'reRacis and esYou'reSexist that[0m
+[94mspecifically to questions over the publication of individual tweets[0m
+[94mserve to collate and expose inappropriate content posted by[0m
+[94min research dissemination and whether, in order to publish them[0m
+[94mothers. Subsequent posts responding to the opening tweet were[0m
+[94m(in an anonymised or non-anonymised form), it was first[0m
+[94malso collected and arranged in posting order. This enabled us to[0m
+[94mnecessary to contact the original users who posted them to[0m
+[94mobserve and analyse how Twitter users respond to each other's[0m
+[94msolicit their informed consent. We conducted a consultation to[0m
+[94mposts.[0m
+[94moverview current guidance and expert opinion on these matters.[0m
+[94mIn this paper we report and discuss the findings of that[0m
+[94mIn our analysis we were interested in 1) how users on Twitter[0m
+[94mconsultation. We show that the publication of Twitter data in[0m
+[94mconstruct posts that are treated by others as hateful and 2) how[0m
+[94mresearch raises significant questions for research ethics and that[0m
+[94musers construct responses to an opening post to perform[0m
+[94mas yet there is an absence of consensus in the field over how to[0m
+[94minteractional actions such as expressing agreement or[0m
+[94mresolve them. We argue that the challenges posed relate to[0m
+[94mdisagreement with it. To give a brief example, Figure 1 shows an[0m
+[94mfundamental ethical principles such as the minimisation of harm[0m
+[94mopening post tweeted by Katie Hopkins - a public figure in the[0m
+[94mand the value of informed consent. These challenges also create[0m
+[94mUK well-known for the expression of inflammatory opinions²[0m
+[94mtensions between commercial (relating in particular to the[0m
+[94moften targeted towards certain groups of people- and two[0m
+[94mTwitter platform and the use of tweets by media organisations),[0m
+[94mresponses that followed it³.[0m
+[94mregulatory and academic practice. Finally, there are also[0m
+[94moccasions where suggestions for good practice might be seen to[0m
+[94mcompromise academic integrity. We argue that these tensions[0m
+[94mKatie Hopkins o[0m
+[94mFollow[0m
+[94midentified in our consultation are relevant not only to the[0m
+[94m@KTHopkins[0m
+[94mpublication of Twitter data but also to a range of other ongoing[0m
+[94mGinger babies. Like a baby. Just so much[0m
+[94mresearch activities in Web science. It is therefore necessary for[0m
+[94mharder to love.[0m
+[94mopen and constructive debate to take place so that researchers[0m
+[94mcan discuss these issues in full and the field of Web science can[0m
+[94mtake a proactive approach towards ethical practice.[0m
+[94mChris Parkinson[0m
+[94mle Follow[0m
+[94m@CJParky[0m
+[94m2. BACKGROUND: THE DIGITAL[0m
+[94m@KTHopkins what gives you the right to judge[0m
+[94mpeople by there hair name or upbringing! It's a[0m
+[94mWILDFIRE PROJECT[0m
+[94mdisgrace and your extremely offensive[0m
+[94m#blockKT[0m
+[94mThe recently completed "Digital Wildfire' project¹ was[0m
+[94man[0m
+[94minterdisciplinary research study that sought to identify[0m
+[94m#GetGaryToVickys30th[0m
+[94mle Follow[0m
+[94mopportunities for the responsible governance of digital social[0m
+[94m@AliSharpe[0m
+[94mspaces. The project was funded by the UK's Economic and Social[0m
+[94mKTHopkins Hope you're kids don't look like[0m
+[94myou or in fact take after you #craprolemodel[0m
+[94mResearch Council (ESRC) and was a collaboration between social[0m
+[94m#dirtysnob #wantingthelimelight[0m
+[94mscientists, computer scientists and computer ethicists. The[0m
+[94mbackground to the project lies in the contemporary popularity of[0m
+[94mFigure 1. Opening tweet and two responses[0m
+[94msocial media platforms and the capacity for digital content to[0m
+[94mspread on a broad and rapid scale [8]. Where rapidly spreading[0m
+[94mWe can observe that the opening post draws on specific[0m
+[94mrhetorical devices such as short sentences, the use of emotive[0m
+[94mcontent is in some way inflammatory, antagonistic or[0m
+[94mprovocative - for instance in the form of rumour, hate speech,[0m
+[94mcategories - e.g. babies - and the presentation of (extreme)[0m
+[94mmalicious campaigns etc. - it can risk causing serious harms to[0m
+[94mindividuals, groups and entire communities. The Digital Wildfire[0m
+[94m2[0m
+[94mproject team undertook a range of research activities designed to[0m
+[94mttps://www.theguardian.com/media/katie-hopkins[0m
+[94m3[0m
+[94mfurther understand how these kinds of content propagate across[0m
+[94mFor the purposes of this paper, we have used the following criteria to[0m
+[94mdetermine whether consent is needed in order to reproduce Twitter[0m
+[94msocial media, the consequences they have, and how responsible[0m
+[94mposts: posts made by figures in the public eye who tweet as part of their[0m
+[94mgovernance strategies might limit the spread of content without[0m
+[94mpublic role, are reproduced in full without consent being sought. Other[0m
+[94musers - such as those who posted tweets 2 and 3 were contacted via[0m
+[94mTwitter and their opt in consent was sought to include their posts in our[0m
+[94m1 www.digitalwildfire.org[0m
+[94mproject publications.[0m
+[94m340[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mopinion as fact - to construct a message that can be seen as[0m
+[94mcome to harm if it is possible to identify them and they have[0m
+[94minflammatory and likely to provoke responses from others. We[0m
+[94mbeen posting content considered to be hateful, inflammatory[0m
+[94mcan further observe how subsequent posts draw on interactional[0m
+[94metc.[0m
+[94mresources and the functionality of the Twitter platform to[0m
+[94m3.[0m
+[94mTwitter's User Development policy requires any[0m
+[94mproduce disagreeing replies that both address Katie Hopkins[0m
+[94mreproduction of tweets to be done in full, so anonymisation[0m
+[94mdirectly - e.g. through the use of the @handle and terms such as[0m
+[94mprocedures are in breach of that.[0m
+[94m"what gives you the right' - whilst also producing negative[0m
+[94massessments and directives that are designed to be viewable to[0m
+[94mTo help us examine these areas more fully, and ideally to find[0m
+[94mother users - e.g. #blockKT. This kind of granular, qualitative[0m
+[94mways to resolve the challenges we faced, we decided to run a[0m
+[94manalysis of individual posts helped us to understand in detail[0m
+[94mconsultation exercise to scope existing guidance and practice in[0m
+[94mhow cyber hate is posted and responded to on the Twitter[0m
+[94mthis area.[0m
+[94mplatform, and subsequently to conceptualise what forms counter[0m
+[94mspeech - posts serving to push back against the spread of hateful[0m
+[94m3. ETHICS CONSULTATION[0m
+[94mcontent - might take. This analysis informed statistical[0m
+[94mOur project team agreed to undertake a consultation to review[0m
+[94mmodelling work that examined the impact of the occurrence of[0m
+[94mthe three issues listed above and also to seek answers to a more[0m
+[94mcounter speech on the length of threads that were started after[0m
+[94mglobal question:[0m
+[94man initial cyber hate post. It also produced valuable insights in its[0m
+[94mown right that we wanted to disseminate via written[0m
+[94mIn order to publish (anonymised) individual social media posts is it[0m
+[94mpublications and conference presentations.[0m
+[94mfirst ethically necessary to contact the user and solicit their[0m
+[94minformed consent?[0m
+[94mThe preference amongst some members of the project team was[0m
+[94mthat this dissemination of our qualitative findings should include[0m
+[94mIn the conduct of the consultation we carried out three strands of[0m
+[94mthe reproduction of certain Twitter posts in order to illustrate[0m
+[94mactivity:[0m
+[94mthe wider patterns found across the dataset. The use of data in[0m
+[94mthis way is standard in the methodological approaches drawn on[0m
+[94m1)[0m
+[94mScoping of current relevant guidance. We surveyed current[0m
+[94min the conduct of the analysis - ethnomethodology and[0m
+[94mregulatory guidance on the use of social media data in[0m
+[94mconversation analysis (EMCA), membership categorisation[0m
+[94mresearch. This included guidance arising from individual[0m
+[94manalysis (MCA) and interaction analysis [10]. These approaches[0m
+[94macademic institutions, research funding bodies and other[0m
+[94mall emphasise the collection of naturally occurring data for[0m
+[94mresearch and regulatory organisations.[0m
+[94manalysis and the (anonymised) reproduction of data to enable[0m
+[94m2)[0m
+[94mSurvey of expert opinion. We made contact with a number of[0m
+[94maudiences to assess for themselves the validity of that analysis.[0m
+[94mexperts working in the fields of research ethics and[0m
+[94mMuch work conducted using these approaches is based on the[0m
+[94mcomputer ethics. We asked them for their thoughts on the[0m
+[94mexamination of audio or video recorded face-to-face interactions.[0m
+[94mquestions and challenges covered in the consultation. We[0m
+[94mAnonymisation of this data can be relatively easy to achieve,[0m
+[94malso reviewed available relevant literature on the ethics of[0m
+[94mthrough the removal of real names in transcripts and the[0m
+[94msocial media/internet research.[0m
+[94mblurring of faces etc., and the capacity for individual participants[0m
+[94m3)[0m
+[94mSurvey of current practice and opinion We surveyed the[0m
+[94mto be identified is arguably low - particularly in comparison to[0m
+[94mopinion of various individuals working in the field to[0m
+[94msocial media data gathered from a "public' platform such as[0m
+[94midentify their views on the consultation questions and their[0m
+[94mTwitter.[0m
+[94mcurrent practices regarding the use of social media data.[0m
+[94mThis survey was conducted in a number of ways including -[0m
+[94mAs we made plans to disseminate our qualitative analysis, debate[0m
+[94mreviews of the content of relevant journals; email[0m
+[94marose amongst the team over whether it would be ethically[0m
+[94mconversations with the editors of a number of research[0m
+[94mappropriate to reproduce tweets in publications, even if[0m
+[94mjournals; email and face-to-face conversations with[0m
+[94manonymised, and whether we should perhaps contact individual[0m
+[94mresearchers; and group discussions with researchers at[0m
+[94musers to seek their informed consent before doing so. Concerns[0m
+[94mrelevant events, such as the Social Media and Society[0m
+[94mthat publication might go against good practice were crystallised[0m
+[94mconference in London 2016.[0m
+[94minto three areas:[0m
+[94mThe findings of the consultation were compiled into a dossier[0m
+[94m1.[0m
+[94mCovering up usernames and @handles does not create[0m
+[94mwhich was then used at the basis for further discussion. In this[0m
+[94mmeaningful anonymisation as it is sometimes possible to[0m
+[94mpaper we draw on the outcomes of the consultation to discuss[0m
+[94menter the main text of a tweet into Twitter's search[0m
+[94mthe challenges faced by researchers when trying to determine[0m
+[94mfunction, recover the tweet and its associated meta-data,[0m
+[94mwhat equates to best practice when working with Twitter data.[0m
+[94mincluding the username and @handle of the user who[0m
+[94mWe found an absence of consensus across the field that reflected[0m
+[94mposted it. Though Twitter allows users to post under a[0m
+[94mthe disagreements occurring in our own research team.[0m
+[94mpseudonym, the meta-data (including picture, location etc.)[0m
+[94mPerspectives vary amongst individuals but also across[0m
+[94mmay enable the poster's identity to be discovered.[0m
+[94minstitutions. Furthermore, research using Twitter data creates a[0m
+[94m2.[0m
+[94mGiven that the Digital Wildfire project includes the[0m
+[94mcomplex landscape in which various ethical challenges arise.[0m
+[94mexamination of hate speech, there is concern that users may[0m
+[94mThese relate in particular to key ethical criteria such as informed[0m
+[94m341[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mconsent, minimising harm and anonymisation. Challenges also[0m
+[94mregard to privacy. These guidelines do not take an overt stance[0m
+[94marise through tensions between academic, commercial and[0m
+[94mon the matter of consent for publication. On the other hand, a[0m
+[94mregulatory practice as well as in contradictory criteria for[0m
+[94m2016 output produced by the University of Aberdeen [13] and[0m
+[94mbehaving ethically and upholding academic integrity.[0m
+[94mbased on project work funded by the ESRC advocates that in the[0m
+[94mcase of sensitive social media content, researchers should either[0m
+[94m4. THE ETHICAL CHALLENGES OF[0m
+[94mconsider the use of paraphrased/composite data instead of[0m
+[94mPUBLISHING TWITTER DATA[0m
+[94mreproducing actual posts or use an informed consent approach.[0m
+[94m4.1 Absence of academic consensus[0m
+[94mSimilarly, in 2016 the University of Oxford produced updated[0m
+[94mguidance6 on internet-based research. This advises that in the[0m
+[94mAs noted above it is standard practice in Web science that tweets[0m
+[94mare collected for analysis via the platform's API. This can be[0m
+[94mcase of Twitter (as a public platform) researchers do not need to[0m
+[94mdone without users being aware at all that their tweets are being[0m
+[94msolicit consent to collect data but should seek consent to publish[0m
+[94mcollected. Users are typically not approached directly to solicit[0m
+[94mindividual posts. Alternatively, they can create composite data[0m
+[94mtheir informed consent to take part in research, instead consent[0m
+[94mfor the purpose of publication.[0m
+[94mis often assumed to have been given by the user's acceptance of[0m
+[94m"Researchers who wish to display direct quotes and the username[0m
+[94mTwitter's Terms of Service. These state4:[0m
+[94mand picture of the person in their work (especially if it is published[0m
+[94m"By submitting, posting or displaying Content on or through the[0m
+[94min any way) should normally seek informed consent to do this,[0m
+[94mServices, you grant us a worldwide, non-exclusive, royalty-free[0m
+[94mespecially in cases of very sensitive data (e.g. hate speech). They[0m
+[94mlicense (with the right to sublicense) to use, copy, reproduce,[0m
+[94mshould contact the participants directly having decided which[0m
+[94mprocess, adapt, modify, publish, transmit, display and distribute[0m
+[94mconsent procedure should be followed (e.g. online information sheet,[0m
+[94msuch Content in any and all media or distribution methods (now[0m
+[94monline consent form, click boxes, etc.). If gaining informed consent[0m
+[94mknown or later developed). This license authorizes us to make your[0m
+[94mis not possible, quotes should normally be paraphrased and[0m
+[94mContent available to the rest of the world and to let others do the[0m
+[94musernames/pictures de-identified in order to protect the[0m
+[94m"participants"[0m
+[94msame"[0m
+[94mThe lack of consensus in research guidance is mirrored by an[0m
+[94mRegarding the further handling of this data, including the[0m
+[94mabsence of consensus in the research community. In our scoping[0m
+[94mpublication of specific posts, there is an absence of consensus. In[0m
+[94mthe US a 2015 amendment to the "Common Rule' Federal Policy5[0m
+[94mof existing literature and survey of individual researchers we[0m
+[94midentified a range of opinion based on alternative ethical[0m
+[94mfor the Protection of Human Subjects suggests that certain forms[0m
+[94mpositions and underlying assumptions about the status of the[0m
+[94mof online behaviours can be classed as public behaviour and[0m
+[94mTwitter platform. This includes different positions regarding[0m
+[94mtherefore do not require further ethical review.[0m
+[94mwhether any consent to publish should be opt-in or opt-out,[0m
+[94m"Any research involving standardized testing, surveys, interviews,[0m
+[94mwhether published posts should be anonymised and whether[0m
+[94mor observations, including audio and video recording, of public[0m
+[94mcomposite data is an acceptable alternative to publishing real[0m
+[94mbehavior, including behavior online, will be able to proceed without[0m
+[94mposts. We also came across a high number of researchers[0m
+[94mfurther review".[0m
+[94mworking in this field and determined to follow good practice who[0m
+[94mwere genuinely uncertain what form that good practice should[0m
+[94mThis amendment is a significant development as the 'Common[0m
+[94mtake. We can see this current absence of consensus as a genuine[0m
+[94mRule' tends to determine the decision-making conducted by[0m
+[94mbarrier to the conduct of work in this area with particular[0m
+[94mInstitutional Review Boards (IRBs). By contrast in the UK, the[0m
+[94mobstacles occurring when research collaborations involve team[0m
+[94mESRC, which funds the Digital Wildfire project, recommends the[0m
+[94mmembers from institutions whose guidance is not compatible.[0m
+[94mfull ethics review of projects intending to collect social media[0m
+[94mdata, noting potential tensions regarding traceability and what[0m
+[94m4.2 Informed consent[0m
+[94mmight or might not considered public.[0m
+[94mThe principle of informed consent is a cornerstone of ethical[0m
+[94m"The potential for identifiability of online sources, as well as ethical[0m
+[94mguidance in contemporary research involving human[0m
+[94mdebates about how privacy is constituted in digital contexts, means[0m
+[94mparticipants. In its classic form, derived from research in bio-[0m
+[94mthat full ethics review may be appropriate for research involving[0m
+[94mmedicine [14], it requires informed consent to be given by[0m
+[94mthese communities".[0m
+[94mparticipants at the point of data collection. In the case of[0m
+[94mresearch involving the collection of Twitter data, informed[0m
+[94mSimilarly, other ethics guidelines, such as those published by the[0m
+[94mconsent for data collection is typically based on user acceptance[0m
+[94mBritish Psychological Association [11] and the Association of[0m
+[94mof its Terms of Service. Given the large volume of tweets[0m
+[94mInternet Researchers [12] - recommend careful consideration of[0m
+[94mtypically collected in a Twitter-based study, it would certainly be[0m
+[94methical issues when using social media data with particular[0m
+[94mtime consuming and challenging to attempt to contact all users[0m
+[94m4[0m
+[94mhttps://twitter.com/tos?lang=en#us[0m
+[94m5[0m
+[94mhttp://www.hhs.gov/ohrp/regulations-and-policy/regulations/nprm-[0m
+[94mhttp://www.admin.ox.ac.uk/media/global/wwwadminoxacuk/localsites/cu[0m
+[94mhome/index.html[0m
+[94mrec/documents/BPG_06_Internet-Based_Research.pdf[0m
+[94m342[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94min a more direct way. However, survey research suggests that[0m
+[94mOur trial with informed consent was based on an opt-in model.[0m
+[94msocial media users are unlikely to read or remember the full[0m
+[94mAn alternative format is an opt-out model, in which users need[0m
+[94mTerms and Conditions (T&Cs) of the platforms they sign up to -[0m
+[94mto specifically state that they do not want to be involved in the[0m
+[94mundermining the assumption that informed consent for data[0m
+[94mresearch. This model relieves some of the time burden involved[0m
+[94mcollection has been given. Furthermore, research on public[0m
+[94min securing consent but could arguably provide a means to[0m
+[94mopinion suggests individuals are wary of research that collects[0m
+[94mensure good practice - particularly for instance where the social[0m
+[94mand publishes social media data without more overt user[0m
+[94mmedia posts involved are not sensitive or very personal in[0m
+[94mconsent. For instance, research reported by the UK think tank[0m
+[94mcontent. However, many Twitter uses receive a high volume of[0m
+[94mDemos [15] found a low level of awareness amongst members of[0m
+[94mmessages in their feed, or perhaps go for long periods of time[0m
+[94mthe public that their posts might be used for research purposes[0m
+[94mwithout logging on to the platform. So opt-out consent does not[0m
+[94mand a general concern over the implications of research for[0m
+[94mprovide a guarantee that a request to publish (if sent via a[0m
+[94mprivacy and the risk of harm. However, in comparison to other[0m
+[94mTwitter message) has been seen or understood.[0m
+[94mplatforms, respondents were less worried about the collection of[0m
+[94mTwitter data for research due to public nature of the platform.[0m
+[94mMore fundamentally, the often anonymous nature of social[0m
+[94mmedia challenges the informed consent model. Twitter does not[0m
+[94mWe have found some instances of small scale studies involving[0m
+[94mhave a real name policy and users are easily able to set up[0m
+[94mTwitter data that overtly seek informed consent from users at[0m
+[94mprofiles that do not include their name or any 'real' facts about[0m
+[94mthe point of data collection. For instance, as part of a study on[0m
+[94mthem. Even with opt-in consent we cannot be totally sure of the[0m
+[94mthe responsible collection of social media data Moffat and Koene[0m
+[94midentity of the users involved if the only access we have to them[0m
+[94m(2016) [16] made use of a prototype web tool. This tool allowed[0m
+[94mis via their public user profiles. In the case of the users we[0m
+[94musers to monitor and manage their Twitter interactions whilst[0m
+[94mcontacted in our own trial, we checked their profiles to identify[0m
+[94malso enabling them to determine when their posts were being[0m
+[94mavailable details about their age, job etc. We wanted to ensure[0m
+[94mcollected as research data. In order to assess for ourselves how[0m
+[94mthat they met the criteria of adults capable of giving informed[0m
+[94mpractical a 'full' informed consent procedure might be, the[0m
+[94mconsent. Even though their user profiles indicated that they[0m
+[94mproject team agreed to attempt to contact a number of Twitter[0m
+[94mwere, we cannot be totally certain that these details are accurate.[0m
+[94musers and seek their opt-in consent to publish specific tweets.[0m
+[94mAs in the case of any informed consent procedure reliant on[0m
+[94mHaving identified a data thread of interest we contacted[0m
+[94mpublic profiles and conversations over a social media platform,[0m
+[94mindividual users over Twitter via a reply to the specific tweet we[0m
+[94mwe cannot necessarily rule out the possibility that a user is under[0m
+[94mwanted to publish. Due to Twitter's character limit, the contact[0m
+[94mthe age of 16 or in some way vulnerable and therefore someone[0m
+[94mrequest was split over two tweets and a link was provided to[0m
+[94mwho might typically be regarded as unable to give consent.[0m
+[94maccess further information:[0m
+[94m4.3 Minimising harm[0m
+[94mHi we are researchers studying social media communications. We[0m
+[94mOne of the main causes for concern we identified over the use of[0m
+[94mare looking at 'heated' discussions on Twitter (1 of 2)[0m
+[94mWe would like to use this tweet in our publications. Please see[0m
+[94mindividual tweets in research dissemination is that publication of[0m
+[94m  https://sites.google.com/site/digitalwildfireesrc/home/consent-for-[0m
+[94mposts might cause harm. Even though Twitter is an open[0m
+[94mpublication and reply if this is OK. (2 of 2)[0m
+[94mplatform, users do not necessarily expect that their tweets will be[0m
+[94mcollected and published to other audiences elsewhere. Publishing[0m
+[94mtweets can bring users to new or larger forms of attention and if[0m
+[94mOver 20 requests to different users were sent out and two[0m
+[94mtheir identities are revealed, they might be at risk from their[0m
+[94mresponses were received - both giving consent for publication.[0m
+[94m(potentially unknowing) participation in research.[0m
+[94mThe process of sending out requests was very quick and it was[0m
+[94mThe minimisation of harm is another key ethical principle in[0m
+[94mpossible to send many messages in a short period of time. As[0m
+[94mresearch involving human participants. This was highly relevant[0m
+[94mnone of the users involved followed our Twitter account we[0m
+[94mto the Digital Wildfire project as our focus was on inflammatory[0m
+[94mwere unable to send direct (private) messages. This meant our[0m
+[94mposts such as messages containing cyber hate. It is possible that[0m
+[94mrequests were visible to other users on the platform, arguably[0m
+[94mthe victims of a cyber hate post might be identifiable (to[0m
+[94mdrawing attention to the post being referred to. When we did not[0m
+[94mthemselves and others) when an individual post is reproduced in[0m
+[94mhear a response from users we had contacted, we sent them the[0m
+[94ma publication; this might cause them further harm in addition to[0m
+[94msame request again around a week later in case they had missed[0m
+[94mthe harm they experienced when the content was originally[0m
+[94mit the first time. We did not feel comfortable sending more than[0m
+[94mposted. Furthermore, if publication makes identifiable a user who[0m
+[94mtwo requests as we did not want our contact to appear intrusive[0m
+[94mhas posted cyber hate messages, this also risks harm. Readers of[0m
+[94mthe publication might seek to retaliate by sending accusatory or[0m
+[94m"shaming' messages over social media or even identifying the[0m
+[94m7[0m
+[94muser offline and seeking to report him/her to the police,[0m
+[94mhttps://www.theguardian.com/commentisfree/2014/apr/24/terms-and-[0m
+[94mcontacting his/her employer etc. Although we have not come[0m
+[94mconditions-online-small-print-information[0m
+[94macross any instances in which this kind of harm has occurred as[0m
+[94m8[0m
+[94mOne of the anonymous reviewers of this paper also made the helpful[0m
+[94msuggestion that we could have deleted our tweets sent to users after a[0m
+[94ma direct result of research involving social media data, practices[0m
+[94mcertain period of time to further limit their potential obtrusiveness.[0m
+[94mof online shaming or 'digilantism' [17] are frequent across[0m
+[94m343[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mcontemporary society and there have been numerous cases in[0m
+[94midentifying profiles at the point of publication may change this at[0m
+[94mwhich users have been excessively punished for tweets that were[0m
+[94msome point in future so that their personal details can be seen by[0m
+[94mperhaps poorly worded or published in the heat of the moment[0m
+[94mreaders.[0m
+[94mand quickly regretted.[0m
+[94mThe dynamic nature of Twitter means that it is very difficult to[0m
+[94mWhilst minimising harm is a central component of good research[0m
+[94muse a static model to assess the extent to which publishing an[0m
+[94mpractice, almost all forms of research carry at least some risk of[0m
+[94mindividual user's posts risks causing them harm. As researchers[0m
+[94mcausing harm. It is therefore necessary to attempt to assess the[0m
+[94min this area we are challenged to ask where our responsibilities[0m
+[94mlevel of risk involved in individual projects. As part of our[0m
+[94mtowards participants begin and end: do we have to protect them[0m
+[94mconsultation exercise we conducted a risk assessment of the[0m
+[94mfrom harm both in the present and in the possible future? As[0m
+[94mDigital Wildfire project's work involving the analysis of social[0m
+[94mdiscussed next, the principle of minimsing harm is further[0m
+[94mmedia posts. Whilst noting the inflammatory nature of many of[0m
+[94mcomplicated by the extreme difficulty of ensuring the meaningful[0m
+[94mthe posts we were analysing we also identified that large[0m
+[94manonymisation of individual Twitter posts.[0m
+[94mnumbers of the posts we had collected were non-contentious or[0m
+[94mmundane in content. We also noted that some users do not[0m
+[94m4.4 Anonymisation[0m
+[94minclude any kind of identifying detail (name, image, place of[0m
+[94mIt is often standard practice in research to anonymise data for[0m
+[94mwork etc.) in their profile or tweets. Subsequently we devised an[0m
+[94mpublication. Participants' identities are protected to ensure that[0m
+[94massessment matrix in which risk to users was calculated[0m
+[94mthey cannot be identified by dissemination audiences and this[0m
+[94maccording to two dimensions. These were: 1) the extent to which[0m
+[94mtherefore helps to protect them from harm. Research outputs[0m
+[94mthe user is identifiable and 2) the extent to which the content of[0m
+[94mincluding individual tweets sometimes attempt to anonymise[0m
+[94mthe tweet is antagonistic, provocative etc. This matrix is shown[0m
+[94mthem by covering or altering the username and @handle of the[0m
+[94min Figure 2.[0m
+[94mposter. However, due to the open status of the Twitter platform[0m
+[94mit can often possible to identify the user with relative ease.[0m
+[94mHIGH RISK[0m
+[94mUSER[0m
+[94mDonald J. Trump[0m
+[94mFollow[0m
+[94m@realDonaldTrump[0m
+[94mHow low has President Obama gone to tapp my[0m
+[94mUser is potentially[0m
+[94mUser is potentially identifiable[0m
+[94midentifiable from Twitter[0m
+[94mfrom Twitter profile[0m
+[94mphones during the very sacred election process.[0m
+[94mprofile[0m
+[94mContent of post is provocative,[0m
+[94mContent of post is mundane[0m
+[94mantagonistic etc.[0m
+[94mThis is Nixon/Watergate. Bad (or sick) guy![0m
+[94mLOW RISK[0m
+[94mHIGH RISK[0m
+[94mFigure 3: recent tweet posted by Donald Trump[0m
+[94mCONTENT[0m
+[94mCONTENT[0m
+[94mUser is not identifiable from[0m
+[94mUser is not identifiable from[0m
+[94mTwitter profile or is from[0m
+[94mTwitter profile or is from public,[0m
+[94mpublic, official or bot account.[0m
+[94mofficial or bot account[0m
+[94mWe can take as an example a recent tweet posted by Donald[0m
+[94mContent of post is mundane[0m
+[94mContent of post is provocative,[0m
+[94mantagonistic etc.[0m
+[94mTrump - see Figure 3. Even if we do not know the user name or[0m
+[94m@handle of the poster, we can put the content of the post into[0m
+[94mTwitter's search function and it will show us the original post as[0m
+[94mLOW RISK[0m
+[94mUSER[0m
+[94ma result - revealing the user's online identity. To overcome this,[0m
+[94mwe might try to make small amendments to the content of the[0m
+[94mFigure 2. Proposed risk assessment matrix for tweets[0m
+[94mpost. Correcting spelling errors or removing or substituting[0m
+[94mwords might (arguably) not affect the integrity of the analysis[0m
+[94mAt first our risk matrix appeared to provide a useful means to[0m
+[94mbut provide a means to shroud the identity of the poster. So, we[0m
+[94massess the likelihood of harm arising from the publication of[0m
+[94mmight amend the post in question to:[0m
+[94mindividual twitter posts and we considered adopting alternative[0m
+[94mHow low has Obama gone to tap my phones during the very[0m
+[94mconsent strategies consent (no consent, opt-out, opt-in) in[0m
+[94mspecial election process. This is Nixon/Watergate. Bad or sick[0m
+[94mrelation to the different levels of risk identified. However, on[0m
+[94mguy![0m
+[94mfurther reflection, this model became problematic in some ways.[0m
+[94mIt was noted that even if a user's offline identity is unknown,[0m
+[94mHowever, putting this content into Twitter's Advanced Search[0m
+[94mtheir online one is likely to be identifiable and this leaves open[0m
+[94mproduces a small number of results, including the original tweet[0m
+[94mthe possibility that publication can cause them some kind of[0m
+[94mand tweets that quote it. This also occurs when entire sentences[0m
+[94mharm through online messages or 'shaming' etc. Furthermore, it[0m
+[94mare removed from the original post. Once again the identity of[0m
+[94mwas observed that if readers look up a user's tweets when[0m
+[94mthe user can be easily deduced. Although we have used a high[0m
+[94mpublished, they will also have access to that user's entire profile[0m
+[94mprofile user as demonstration, we have carried out this exercise[0m
+[94mand (public) posting history - including posts made after[0m
+[94mwith some of the content posted by unknown users in our[0m
+[94mdatasets and achieved similar results. Twitter's Advanced Search[0m
+[94mpublication. Even if a publication quotes only mundane posts[0m
+[94mfrom a user, it is possible that readers might find more[0m
+[94mfunction can consistently identify the profile of a user or narrow[0m
+[94mprovocative ones that were not identified in the study or posted[0m
+[94mit down to a very small subset and further investigation can[0m
+[94mafter the publication of the study. Similarly, users with non-[0m
+[94mquickly reveal the relevant user.[0m
+[94m344[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94m4.5 Commercial vs regulatory vs academic[0m
+[94m4.6 Research integrity[0m
+[94mpractice[0m
+[94mAlthough ethical practice should always take priority over[0m
+[94mIncompatibilities between commercial, regulatory and academic[0m
+[94macademic findings, our consultation highlighted a number of[0m
+[94mpractices present a further challenge to determining best practice[0m
+[94mquestions over the importance of academic integrity in research[0m
+[94min the use of Twitter data. As has already been mentioned,[0m
+[94musing social media data and the ways in which this can be[0m
+[94mTwitter's own Terms of Service are often relied on in academic[0m
+[94mchallenged by procedures designed to minimise harm. One key[0m
+[94mwork as providing informed consent for the collection and[0m
+[94mexample is in the suggestion that qualitative analysis should[0m
+[94manalysis of tweets. For researchers working within the European[0m
+[94mpresent composite or paraphrased data rather than publish actual[0m
+[94mUnion this reliance is clouded by Data Protection legislation[0m
+[94mtweets. This has been suggested in academic publications (in[0m
+[94mwhich states, broadly, that data should not be used for purposes[0m
+[94mrelation to various data contexts) [19] as well as some of the[0m
+[94mother than which it was created. Posting content to communicate[0m
+[94mguidance we discussed earlier. It can be seen to present an ideal[0m
+[94mon a platform is an objectively different purpose to providing[0m
+[94msolution as findings are represented in a global way without any[0m
+[94mdata to be included in research. The notion that users provide[0m
+[94mthreat to individual identities being revealed, providing a[0m
+[94minformed consent for their tweets to be used in research is[0m
+[94mqualitative equivalent of aggregated data.[0m
+[94mfurther undermined by evidence suggesting that users do not[0m
+[94mread the Terms and Conditions of a platform in full or[0m
+[94mHowever, whilst this approach appears acceptable to some it is[0m
+[94munderstand their implications. If we accept that informed[0m
+[94mvery problematic to others, in particular to those in research[0m
+[94mconsent occurs at the point of data collection, then we are[0m
+[94mcommunities where analysis and publication emphasises the[0m
+[94mrequired to question even standard, apparently non-[0m
+[94mvalue of naturally occurring data. As noted earlier in the paper,[0m
+[94mcontroversial, practices of collecting tweets via the platform's[0m
+[94mthe interactional approach followed in our project is one form of[0m
+[94mAPI. A more fundamental question is to what extent should our[0m
+[94manalysis that emphasises this approach. It is typically necessary[0m
+[94mown research obligations to ensure good ethical practice be[0m
+[94mto illustrate findings using data fragments and these fragments[0m
+[94mpassed over to, and rely on, the actions of commercial agents[0m
+[94mare routinely based on naturally occurring data. We contacted[0m
+[94msuch as Twitter?[0m
+[94mthe editors of journals we would typically seek to publish in and[0m
+[94masked if composite data would be accepted in their publication.[0m
+[94mA further form of incompatibility lies in the requirement of[0m
+[94mWe included the suggestion that the actual data could be made[0m
+[94m10[0m
+[94mTwitter's User Development Policy that tweets are reproduced[0m
+[94mavailable to reviewers to help them evaluate the robustness of[0m
+[94min full in publications. Any alternations - such as to remove or[0m
+[94mthe analysis. Their response was that they would reject any[0m
+[94mchange a username - would be considered a breach. This[0m
+[94marticles that used this approach. One editor told us:[0m
+[94mrequirement challenges standard academic practices of[0m
+[94manonymisation (although as already noted, this is hard to achieve[0m
+[94mMost journals would be reluctant to contemplate fabricated data.[0m
+[94mwith tweets in any case) and also conflicts with European[0m
+[94mThere are two reasons for this. The first is that it is not a good[0m
+[94mUnion11 and (in the UK) Information Commissioner's Office12[0m
+[94mproxy for the real thing.. The second is that it runs across all the[0m
+[94mregulations regarding the handling of data.[0m
+[94mcurrent concerns about research integrity and the potential for[0m
+[94mfalsifying findings. Making data available to reviewers but not[0m
+[94mOn account of Twitter's policy, it is standard to see tweets[0m
+[94mpublishing it would also run into problems with the open data[0m
+[94mreproduced in full in media articles. This creates an interesting[0m
+[94mmovement.. We accept that qualitative materials may be[0m
+[94mscenario in research dissemination in which we can link to a[0m
+[94mminimally edited for anonymity - see above- but we cannot[0m
+[94mnews item showing tweets in full but cannot be assured that[0m
+[94mcontemplate publishing papers that offer no opportunity for readers[0m
+[94mshowing those same tweets that we have perhaps collected via[0m
+[94mindependently to evaluate the interpretations and analyses offered[0m
+[94mthe API would be an acceptable practice. Twitter's policy[0m
+[94mby their authors.[0m
+[94mregarding the reproduction of tweets without alteration is in fact[0m
+[94moften breached in academic publications. We have seen various[0m
+[94mAs this respondent indicates, the reasons to be wary of[0m
+[94minstances of published journal articles that cover up usernames[0m
+[94mcomposite data on the basis of academic integrity are both[0m
+[94mand @handles [18] and have heard that journals will sometimes[0m
+[94mspecific to the type of analysis being undertaken and broadly[0m
+[94minsist on this practice where the content of the tweets is in some[0m
+[94mapplicable to research in general. In specific terms the[0m
+[94mway sensitive. To the best of our knowledge, Twitter have not[0m
+[94minteractional analysis of tweets depends on the detailed and[0m
+[94mtaken any action in response to these breaches.[0m
+[94mprecise analysis of content. To return to the Katie Hopkins post[0m
+[94min Figure 1, we consider that it is the particular combination of[0m
+[94mdescriptive terms, use of grammar, sentence construction etc.[0m
+[94mthat makes this post inflammatory and likely to provoke others.[0m
+[94mThe precise content of the responses following this post is also[0m
+[94mdependent on these particular features. Due to the highly[0m
+[94m9[0m
+[94mhttp://ec.europa.eu/justice/data-protection/[0m
+[94mdetailed focus of our analysis we are dependent on showing the[0m
+[94m1° https://dev.twitter.com/overview/terms/agreement-and-policy[0m
+[94mexact posts to convey our argument. It is virtually impossible for[0m
+[94m¹http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:31995L00[0m
+[94mus to accurately illustrate our argument with anything other[0m
+[94m12[0m
+[94mtps://ico.org.uk/for-organisations/guide-to-data-protection/[0m
+[94m345[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mthan the original data as the different wording of a composite[0m
+[94m5. DISCUSSION[0m
+[94mpost would suggest a different analytic reading of it.[0m
+[94mThis paper has drawn on the outcomes of an ethics consultation[0m
+[94mto illustrate the challenges that arise when trying to determine[0m
+[94mIn broader terms we need to ask whether it is ever acceptable to[0m
+[94mwhat constitutes good practice in research involving the[0m
+[94mfabricate data in the publication of research. Even if done with[0m
+[94mcollection, analysis and publication of Twitter data. We have[0m
+[94mgenuine intentions this practice contradicts standard[0m
+[94mused our own project research as a starting point to investigate[0m
+[94munderstandings of academic integrity. For instance,[0m
+[94mthe[0m
+[94mthe ethical issues that require consideration when working in[0m
+[94m13[0m
+[94mUniversities UK Concordat to Support Research Integrity states[0m
+[94mthis area, particularly in the case of publishing specific tweets[0m
+[94mon page 17 that:[0m
+[94mwhen disseminating research findings. As illustrated in the[0m
+[94msections above, scoping the field has revealed a highly complex[0m
+[94m"Research misconduct can take many forms, including:[0m
+[94mlandscape that presents major challenges for ongoing research.[0m
+[94mfabrication: making up results or other outputs (eg, artefacts) and[0m
+[94mpresenting them as if they were real[0m
+[94mWe have identified a lack of consensus in the field over the[0m
+[94mfalsification: manipulating research processes or changing or[0m
+[94mappropriate ways to collect and handle social media data and[0m
+[94momitting data without good cause"[0m
+[94mprocedures through which to disseminate it. These differences[0m
+[94mexist across institutions, academic publishers and individuals.[0m
+[94mThe creation of composite data therefore creates a risk of being[0m
+[94mReliance on Twitter's Terms of Service to assume informed[0m
+[94mseen as research misconduct. We might counter this by stating[0m
+[94mconsent to collect data is standard in many studies but is[0m
+[94mthat the fabrication of posts would be done in a robust and[0m
+[94mproblematic. Direct approaches to users to seek consent (for[0m
+[94msystematic way - but how would we be able to judge this and[0m
+[94minstance to publish specific posts) can be achieved but are time[0m
+[94mwho would evaluate it?[0m
+[94mconsuming and, more fundamentally, do not necessarily[0m
+[94mguarantee that a user is capable of giving consent. Research[0m
+[94mIn our consultation other arguments have been raised around[0m
+[94musing Twitter data - in particular when the content of posts is in[0m
+[94mresearch integrity. As researchers we have a duty to examine[0m
+[94msome way sensitive - carries a risk of harm to participants. It is[0m
+[94mdifficult topics and social problems. The spread of hate speech on[0m
+[94mtherefore necessary to assess this risk when determining[0m
+[94msocial media can be seen as an instance of this. The prevalence[0m
+[94mprocedures for data handling and publication. Challenges arise[0m
+[94mand impact of hateful content is frequently reported in the news[0m
+[94mwhen we consider that Twitter is a dynamic platform: users will[0m
+[94mand the major platforms are often criticised for not doing enough[0m
+[94mcontinue to post after we have collected the posts that[0m
+[94mto stop it14. We might therefore argue that it is a priority for us[0m
+[94mparticularly interest us. If publishing drives audiences towards a[0m
+[94mto conduct research into these matters and share our results in a[0m
+[94mparticular user, their risk of harm relates to all their posts rather[0m
+[94msuitable way. This can help to identify solutions to the social[0m
+[94mthan just the posts we have published. Does that mean our risk[0m
+[94mproblem and perhaps hold platforms to account for their lack of[0m
+[94massessment needs to attend to previous posts and possible future[0m
+[94maction. However, it might be reasonable to assume that users[0m
+[94mones? As an open platform, standard practices of anonymisation[0m
+[94mposting extreme forms of hate speech would not give their[0m
+[94mdo not map well onto Twitter posts as it can be very easy to[0m
+[94mconsent to be involved in research - for purposes of data[0m
+[94midentify users by putting the content of their posts into the[0m
+[94mcollection and publication. Does this mean we cannot carry out[0m
+[94mplatform's search function. Furthermore, attempts at[0m
+[94mthe research? It is possible that requirements for informed[0m
+[94manonymisation are a breach of Twitter's User Development[0m
+[94mconsent might form a barrier to research being undertaken and[0m
+[94mpolicy. Twitter's requirements for data handing are also[0m
+[94mlead to researchers shying away from these important issues in[0m
+[94mpotentially incompatible with regulatory requirements and[0m
+[94mfavour of topics that are 'easier' to deal with in ethical terms.[0m
+[94mmedia practices for publishing posts frequently differ from[0m
+[94mAnother point is that justice for participants is also an ethical[0m
+[94macademic ones. Finally, the use of composite data in place of[0m
+[94mprinciple. It can be argued that those who have been made[0m
+[94mpublishing actual tweets is incompatible with certain analytic[0m
+[94mvictims of abuse on a public social media platform have a right[0m
+[94mapproaches and genuine questions arise over how ethical[0m
+[94mfor that abuse to be exposed in its original form. If we attempt to[0m
+[94mpractice can be balanced with the demands of academic integrity.[0m
+[94mparaphrase the content of the abuse or hide the identity of the[0m
+[94mIn particular, it could be argued that as researchers we have a[0m
+[94muser who posted it, could it be argued that we are doing a dis-[0m
+[94mduty to study difficult social problems such as the spread of hate[0m
+[94mservice to the victim of that abuse? Academic integrity is itself[0m
+[94mspeech on social media and that the creation of barriers to[0m
+[94man ethical issue and poses significant questions for work in this[0m
+[94maccessing and publishing data might lead us to neglect this duty[0m
+[94marea.[0m
+[94min favour of easier' topics.[0m
+[94mOur ethics consultation was not able to draw firm conclusions[0m
+[94mabout best practice with regard to publishing tweets and in[0m
+[94mrelation to the use of Twitter data more generally. Instead it[0m
+[94m13[0m
+[94mhttp://www.universitiesuk.ac.uk/policy-and-[0m
+[94mhighlighted division of opinion across the field that reflected[0m
+[94manalysis/reports/Documents/2012/the-concordat-to-support-research[0m
+[94mdifferences of perspective within our own project team. These[0m
+[94mintegrity.pdf[0m
+[94mdivisions are frequently founded in different conceptions of what[0m
+[94m14[0m
+[94mhttps://www.theguardian.com/media/2017/mar/14/face-off-mps-and-[0m
+[94mit means to collect data from an open platform and to what[0m
+[94mcial-media-giants-online-hate-speech-facebook-twitter[0m
+[94m346[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mextent the status of data as publicly available does or does not[0m
+[94mbegin and end in relation to these kinds of data and how can we[0m
+[94malter standard ethical obligations relating to informed consent,[0m
+[94massess them? How can we balance the risks of conducting and[0m
+[94manonymisation and the minimisation of harm. They can also be[0m
+[94mpublishing research against the potential risks of not conducting[0m
+[94mseen to reflect a more fundamental stalemate between two[0m
+[94mresearch? Whilst these questions are undoubtedly challenging[0m
+[94methical positions. On the one hand a universalist approach might[0m
+[94mand the route towards a shared pathway for good practice might[0m
+[94mstate that if consent cannot be gained and anonymity cannot be[0m
+[94mbe a rocky one, these issues create an exciting opportunity for[0m
+[94massured, then in any and every case research cannot be[0m
+[94mgenuine debate to occur and to effect meaningful change.[0m
+[94mpublished. On the other hand, a situated approach might operate[0m
+[94mon a case-by-case basis, taking into account factors such as the[0m
+[94m6. ACKNOWLEDGMENTS[0m
+[94mnature of the content being studied and the status of the users[0m
+[94minvolved (as in the public eye or easy to identify etc.). Without[0m
+[94mOur thanks to all those who participated in the ethics[0m
+[94mtaking a stance on either side of this debate, we note that[0m
+[94mconsultation reported on in this paper. Plus, thanks to the[0m
+[94mresearchers working in the fields of Web science and social[0m
+[94manonymous reviewers for their comments on the submission. We[0m
+[94mscience are subject to different and constantly negotiated ethical[0m
+[94mare also grateful to the Economic and Social Research Council[0m
+[94mpositions and interpretations of what constitutes harm etc. The[0m
+[94m(ESRC) for funding the project: "Digital Wildfire:[0m
+[94mimplementation of general rules does not map well onto these[0m
+[94m(Mis)information flows, propagation and responsible[0m
+[94mnegotiations and interpretations, and carries a real risk of[0m
+[94mgovernance' ref ES/L0133981.[0m
+[94mleading to the censorship of academic work.[0m
+[94m7. REFERENCES[0m
+[94mThe current complexities surrounding good practice and Twitter[0m
+[94m[1][0m
+[94mFor overview see: Gayo-Avello, D. 2013. A meta-analysis of state of[0m
+[94mresearch create significant challenges for ongoing work in the[0m
+[94mthe art electoral prediction from Twitter data. Social Science[0m
+[94mfield. How can researchers collaborate successfully if they are[0m
+[94mComputer[0m
+[94mReview[0m
+[94m31,[0m
+[94m6[0m
+[94m(Aug.[0m
+[94m2013)[0m
+[94m649-679.[0m
+[94mfollowing different guidelines and competing ethical[0m
+[94mDOI=10.1177/0894439313493979[0m
+[94mstandpoints? How can the results of qualitative research be[0m
+[94m[2][0m
+[94mFor overview see: Webb, H., Burnap, P., Procter, R. Rana, O., Stahl,[0m
+[94mpublished if informed consent is necessary but impossible to[0m
+[94mB., Williams, A., Housley, W., Edwards, A., and Jirotka, M. 2016[0m
+[94machieve and if composite data is regarded as unacceptable[0m
+[94mDigital Wildfires? Propagation, Verification, Regulation and[0m
+[94mfabrication? These issues are not specific to Twitter data alone[0m
+[94mResponsible Innovation ACM Transactions on Information[0m
+[94mand apply to other forms of Web science research such as those[0m
+[94mSystems.34, 3 (April 2016). DOI= -10.1145/2893478[0m
+[94musing blogs and forums as data sources in addition to other social[0m
+[94m[3][0m
+[94mFor example see: Burnap, P. and Williams, M.L. 2016 Us and them.:[0m
+[94mmedia platforms. Furthermore, the challenges we have[0m
+[94mindentifying cyberhate on Twitter across multiple protected[0m
+[94mcharacteristics. E3P Data Science 5, 11. Available online at[0m
+[94mhighlighted have also been discussed in relation to other uses of[0m
+[94mhttp://orca.cf.ac.uk/88072/ And: Pak, A., and Paroubek, P. 2010[0m
+[94mdigital data [20]. The fact that they remain unresolved[0m
+[94mTwitter as a Corpus for Sentiment Analysis and Opinion[0m
+[94mdemonstrates how intractable they are. Our discussions over the[0m
+[94mMining. LREc. Vol. 10. No. 2010.[0m
+[94methical handling of Twitter data serve as a case study for a[0m
+[94m[4][0m
+[94mFor overview see: Marwick, A. 2013 Ethnographic and Qualitative[0m
+[94mbroader range of data sources in Web science and highlight the[0m
+[94mResearch on Twitter. In Weller, K., Bruns, A., Puschmann, C.,[0m
+[94mchallenges that the field needs to address.[0m
+[94mBurgess, J. and Mahrt, M. (eds.) Twitter and Society New York: Peter[0m
+[94mLang, 109-122.[0m
+[94mIt is our position that having identified these various tensions[0m
+[94m[5][0m
+[94mFor example, see: Stahl, B. C. Heersmink, R. Goujon, P. Flick, C. van[0m
+[94maround the ethical use of Twitter data in research, it is our[0m
+[94mden Hoven, J. Wakunuma, K. Veikko Ikonen, V.T.T. and Rader, M.[0m
+[94mobligation to attend to them and reflect seriously on how we can[0m
+[94m2010. Identifying the ethics of Emerging Information and[0m
+[94mCommunication Technologies. International Journal of Technoethics[0m
+[94mpursue genuine good practice in our work. Furthermore, we also[0m
+[94m1,4,20-38; boyd, d and Crawford, K. 2012 Critical questions for big[0m
+[94margue that these tensions create real dilemmas for Web science[0m
+[94mdata Information, Communication and Society 15,6. 662-679 DOI=[0m
+[94mand that it is crucial that attempts are made to address them to[0m
+[94m10.1080/1369118X.2012.678878 Zimmer, M. 2010. "But the data is[0m
+[94menable the field to move forwards. We suggest that open and[0m
+[94malready public" on the ethics of research in Facebook. Ethics and[0m
+[94mconstructive debate should take place in relation to all of the[0m
+[94mInformation Technology 12,4, 313-325; Zwitter, A.J. 2014. Big Data[0m
+[94missues we have highlighted here. Whilst it is unlikely that full[0m
+[94mEthics[0m
+[94mBig[0m
+[94mData[0m
+[94mand[0m
+[94mSociety[0m
+[94m1,2[0m
+[94mNov[0m
+[94m2014[0m
+[94mconsensus could ever be reached, it is possible - and vital - to[0m
+[94mdoi/10.1177/2053951714559253 Schroeder, R. 2014. Big Data and the[0m
+[94mfind a shared pathway that researchers can follow. This debate[0m
+[94mbrave new world of social media research Big Data and Society 1,2[0m
+[94mDec 2014. DOI=10.1177/2053951714563194.[0m
+[94mshould include the broad examination of key ethical criteria. For[0m
+[94m[6] For example see: Neuhas, F. and Webmoor, 2012. Agile ethics for[0m
+[94minstance, fields such as ubiquitous computing [21] have made[0m
+[94mmassified research and visualization. Information, Communication[0m
+[94mattempts to move beyond traditional concepts of informed[0m
+[94mand Society 15,1, 43-65 DOI= 10.1080/1369118X.2011.616519. And:[0m
+[94mconsent and we can ask whether alternative strategies could[0m
+[94mMcNeily, M Hutton, L. and Henderson, T. 2013. Understanding[0m
+[94macceptably be applied to social media research. Similarly, we[0m
+[94methical concerns in social media privacy studies. In Proceedings of[0m
+[94mneed to pose questions such as: in the age of Big Data, to what[0m
+[94mthe ACM CSCW Workshop on measuring networked social privacy:[0m
+[94mextent is it possible for informed consent to occur at the point of[0m
+[94mQualitative and Quantitative approaches.[0m
+[94mdata collection? To what extent are existing (often static) models[0m
+[94m[7][0m
+[94mFor overview see: Zimmer, M. and Proferes, N.J. 2014. A topology of[0m
+[94mof anonymity and risk compatible with public and dynamic[0m
+[94mTwitter research: disciplines, methods and ethics. Aslib Journal of[0m
+[94msources of data? Where do our responsibilities to minimise harm[0m
+[94m347[0m
+[94mLong Session VI: Reflecting, Thinking, Understanding[0m
+[94mWebSci '17, June 25-28, 2017, Troy, NY, USA[0m
+[94mInformation Management 66,3, 250-261. , 1-10. DOI= 10.1108/AJIM-[0m
+[94m09-2013-0083.[0m
+[94m[13] Townsend, L. and Wallace, C. Social Media Research: A guide to[0m
+[94methics. Available online at:[0m
+[94m[8][0m
+[94mWorld Economic Forum, 2013 Digital Wildfires in a hyperconnected[0m
+[94mttp://www.dotrural.ac.uk/socialmediaresearchethics.pdf[0m
+[94mworld. Global Risks Report. World Economic Forum (Feb. 2013).[0m
+[94m[14] Dingwall, R. and Murphy, E. 2003. Qualitative Methods and Health[0m
+[94mAvailable online at: hhttp://reports.weforum.org/global-risks-[0m
+[94mPolicy Research. New York: Aldine de Gruyter.[0m
+[94m22013/risk-case-1/digital-wildfires-in-a-hyperconnected-world/[0m
+[94m[15] Evans, H., Ginnis, S. and Bartlett, J 2015. #social Ethics: a guide to[0m
+[94m[9][0m
+[94mWebb, H., Jirotka, M., Carsten Stahl, B., Housley, W., Edwards, A.,[0m
+[94membedding ethics in social media research. Demos. Available online[0m
+[94mWilliams, M., Procter, R., Rana, O. and Burnap, P. (2015). Digital[0m
+[94mat https://www.ipsos-mori.com/Assets/Docs/Publications/im-[0m
+[94mwildfires: hyper-connectivity, havoc and a global ethos to govern[0m
+[94mdemos-social-ethics-in-social-media-research-summary.pdf[0m
+[94msocial media. Computers and Society 45(3), 193-201.[0m
+[94m[16] Moffat, A. and Koene, A. 2016. Public Outreach Evaluation Tool[0m
+[94mDOI=10.1145/2874239.2874267[0m
+[94m(TOOL). Poster presented at the Social Media and Society Conference[0m
+[94m[10] For further details of these approaches see: Housley, W., Webb, H.,[0m
+[94mJuly 2016.[0m
+[94mWilliams, M. et. al. (forthcoming) Social Media, Interaction and[0m
+[94m[17] For example, see: Ronson, J. 2015 So You've been publicly shamed.[0m
+[94mCategorisation: The Case of Twitter Campaigns. Social Media and[0m
+[94mLondon: Penguin Publishing group. And see also:[0m
+[94mSociety special issue on Social Movements and Social Media. And:[0m
+[94mhttp://www2.warwick.ac.uk/fac/soc/pais/people/sorell/tom_sorrell_[0m
+[94mTolmie, P., Procter, R., Rouncefield, M., Liakata, M. and Zubiaga, A.[0m
+[94m- digilantism.mp4[0m
+[94mMicroblog Analysis as a programme of work. Submitted to ACM[0m
+[94m[18] For example, Awan, I. 2014. Islamophobia on Twitter: A Typology[0m
+[94mTransactions on Social Computing.[0m
+[94mof Online Hate Against Muslims on Social Media Policy & Internet[0m
+[94m[11] British Psychological Society, 2013. Ethics Guidelines for Internet-[0m
+[94m6, 2, 133-150.[0m
+[94mmediated Research. INF206/1.2013. Leicester: British Psychological[0m
+[94mSociety. Available online at:www.bps.org.uk/publications/policy-[0m
+[94m[19] Markham, A. 2005. "Go ugly early": Fragmented narrative and[0m
+[94m  andguidelines/research-guidelines-policydocuments/research-[0m
+[94mbricolage as interpretive method. Qualitative Inquiry 11,16, 813-819[0m
+[94mguidelines-poli[0m
+[94mDOI=10.1177/1077800405280662.[0m
+[94m[20] Carus, A., and Jirotka, M. 2009 From Data Archive to Ethical[0m
+[94m[12] Markham, A. and Buchanan, E, 2012. Ethical Decision-Making and[0m
+[94mLabyrinth Qualitative Research 9, 3, 285- 299[0m
+[94mInternet Research: Recommendations from the AoIR Ethics Working[0m
+[94m[21] See for example: Moran, S., Luger, E. and Rodden, T. 2014. An[0m
+[94mCommittee (Version 2.0). AoIR. Available online at:[0m
+[94memerging toolkit for attaining informed consent in UbiComp.[0m
+[94mhttps://aoir.org/reports/ethics2.pdf[0m
+[94mUbiComp '14 Adjunct Sep 2014 Available online at:[0m
+[94mhttp://ubicomp.org/ubicomp2014/proceedings/ubicomp_adjunct/wo[0m
+[94mrkshops/Consent/p635-moran.pdf[0m
+[94m348[0m

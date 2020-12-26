@@ -1,2 +1,2 @@
-# textract-examples
-AWS Textract Examples in Jupyter Notebook format.
+# documentsworkflow
+Explore the alternatives for extracting information from documents at scale.
