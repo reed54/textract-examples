@@ -51,3 +51,6 @@ With Amazon Textract, you pay only for what you use. There are no minimum fees a
 
 ### Free Tier
 You can get started for free with the AWS Free Tier. New AWS customers can analyze up to 1,000 pages per month using the Detect Document Text API and up to 100 pages per month using the Analyze Document API, for the first three months.
+
+
+James D. Reed January 23, 2021
